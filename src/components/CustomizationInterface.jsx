@@ -29,12 +29,12 @@ export default function CustomizationInterface() {
     .from("designs")
     .insert([
          {
-        Customer_Name: customerName,
+        customer_name: customerName,
         customer_email: customerEmail,
         customer_phone: customerPhone,
         notes: notes,
         design_data: customization,
-        status: "Pending"
+        status_pesanan: "Pending"
       }
     ]);
 
